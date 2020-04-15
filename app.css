@@ -1,3 +1,14 @@
 body, html, #container {
     height: 100%;
 }
+.button {
+    background-color: grey;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color:#66FCF1;
+}

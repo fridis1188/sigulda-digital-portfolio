@@ -1,41 +1,49 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>___</title>
+        <title>Frīda Ludiņa mājaslapa</title>
         
         <script src="libs\jquery-3.2.1.min.js" type="text/javascript"></script>
         <link href="libs\bootstrap.min.css" rel="stylesheet">
         <link href="app.css" rel="stylesheet">
         <script src="app.js" type="text/javascript"></script>
+        <meta charset = "UTF-8">
 
     </head>
     <body>
 
         <div id="header">
             <div id="main" class="container">
-                <div id="navigation_header" class="row">
-                    <h1 class="col-sm-12 text-center">____</h1>
-                </div>
-                <div id="navigation_buttons" class="row">
-                    <p class="col-sm-4 text-center">____</p>
-                    <p class="col-sm-4 text-center">____</p>
-                    <p class="col-sm-4 text-center">____</p>
+                <div id="title" class="row">
+                    <h1 style="font-size: 600%;" class="text-left">F.L.</h1>
                 </div>
             </div>
         </div>
 
-        <div id="body">
+        <div id="button_row">
+            <div id="button_container" class="container">
+                <div id="navigation_buttons" class="row">
+                    <button class="button" id="home">Sākums</button>
+                    <button class="button" id="about_me">Par mani</button>
+                    <button class="button" id="my_work">Mani darbi</button>
+                    <button class="button" id="contact">Kontaktinformācija</button>
+                </div>
+            </div>
+        </div>
 
-            <div id="body_container" class="container">
+        <div id="bar_left" style="float: left">
+
+        </div>
+
+        <div id="body" style = "float: left">
+
+            <div id="home_container" class="container">
                 <div id="body_content" class="row">
                     <p class="col-sm-7">______</p>
-                    <div class="col-sm-5">
-                        <img id="personal_photo" class="text-center" src="https://i.imgur.com/jWr67J8.png?1" />
-                    </div>
                 </div>
             </div>
 
-            <!-- <div id="image_container" class="container">
+            <div id="about_me_container" class="container">
                 <div id="image_content" class="row">
                     <div class="col-sm-4">
                         <img class="magic-image" src="http://25.media.tumblr.com/tumblr_m3yxaxsHN41qg73i1o1_1280.jpg" />
@@ -47,9 +55,9 @@
                         <img class="magic-image" src="http://25.media.tumblr.com/tumblr_m3yxaxsHN41qg73i1o1_1280.jpg" />
                     </div>
                 </div>
-            </div> -->
+            </div>
 
-            <!-- <div id="form_container" class="container">
+            <div id="my_work_container" class="container">
                 <div id="form_content" class="row">
                     <form class="col-sm-4 offset-sm-4">
                         <div class="form-group row">
@@ -65,16 +73,16 @@
                         </div>
                     </form>
                 </div>
-            </div> -->
+            </div>
+
+            <div id="contact_container" class="container">
+                
+            </div>
 
         </div>
 
-        <div id="footer">
-            <div class="container">
-                <div class="row text-center">
-                    <p class="col-sm-12">____</p>
-                </div>
-            </div>
+        <div id="bar_right" style="float: left">
+
         </div>
 
     </body>
